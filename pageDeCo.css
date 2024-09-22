@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#Connexion {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+#Connexion h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+#Connexion form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#Connexion label {
+  font-size: 14px;
+  color: #555555;
+  text-align: left;
+}
+
+#Connexion input[type="text"],
+#Connexion input[type="password"] {
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+#Connexion input[type="text"]:focus,
+#Connexion input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+#Connexion input[type="submit"] {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+#Connexion input[type="submit"]:hover {
+  background-color: #0056b3;
+}
